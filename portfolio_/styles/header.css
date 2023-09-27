@@ -1,0 +1,30 @@
+.cabecalho {
+    background-color: #EBECEE; /* Cor de fundo do cabeçalho (pode ser diferente) */
+    color: #000000; /* Cor do texto do cabeçalho (pode ser diferente) */
+    padding: 20px 0; /* Espaçamento interno superior e inferior */
+    display: none;
+}
+
+.menu {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0;
+    margin: 0 auto; /* Centraliza horizontalmente a lista */
+    max-width: 600px; /* Defina a largura máxima da lista */
+    text-align: center; /* Centraliza o texto dentro da lista */
+}
+
+.menu__items {
+    display: inline-block; /* Exibe os itens da lista em linha */
+    margin-right: 20px; /* Espaçamento à direita entre os itens (pode ser diferente) */
+}
+
+.menu__items:last-child {
+    margin-right: 0; /* Remove o espaço à direita do último item */
+}
+
+.menu__items a {
+    text-decoration: none;
+    color: #000000; /* Cor dos links (pode ser diferente) */
+    
+    
+}
