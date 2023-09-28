@@ -4,6 +4,7 @@
 @import url(styles/habilidades.css);
 @import url(styles/formacao.css);
 @import url(styles/experiencia.css);
+@import url(styles/projetos.css);
 :root{
 
     --cor-de-fundo: #EBECEE;

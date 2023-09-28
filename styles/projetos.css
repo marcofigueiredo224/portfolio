@@ -1,0 +1,48 @@
+.projetos{
+    text-align: center;
+}
+.projetos__titulo1{
+    font-weight: bold; /* Adiciona negrito ao título (opcional) */
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.projetos__01{
+    margin-top: -30px;
+}
+
+.projetos_titulo{
+    font-weight: bold; /* Adiciona negrito ao título (opcional) */
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: -40px;
+}
+
+
+
+.projetos_img{
+    height: 350px;
+    width: 350px;
+}
+
+.projetos-btn{
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius:24px ;
+    background-color: #014235;
+    color: white;
+    padding: 0.5em;
+    width: 8em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.projetos-btn:hover{
+    background-color: transparent;
+    color: #014235;
+
+}
