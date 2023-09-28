@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +39,7 @@
                 </a>
                 <a href="#projetos">
                 <input type="button" value="Projetos" class="informacoes_botao">
-            </a>
+                </a>
             </div>
         </div>
         <div class="informacoes_contatos">
@@ -49,7 +50,7 @@
     </section>
 
     
-    <section class="sobre-mim">
+    <section class="sobre-mim hidden reveal">
         <div class="sobre-mim_card">
             <h2 class="sobre-mim__titulo">-Sobre Mim-</Sobre></h2>
             <p class="sobre-mim__paragrafo">Analista de testes com 1 ano e meio de experiência e 4 anos de estudos na área de Qualidade de Software.<br>
@@ -60,7 +61,7 @@
 
 
     </section>
-    <section class="habilidades">
+    <section class="habilidades hidden reveal">
         <div class="habilidades__card">
             <h2 class="habilidades-titulo">-Habilidades-</h2>
             <img src="img/1.png" class="habilidades__img" alt="Robot">
@@ -74,7 +75,7 @@
         </div>
     </section>
 
-    <section class="formacao">
+    <section class="formacao hidden reveal">
         <h2 class="formacao__titulo1">-Formação-</h2>
         <div class="formacao_infos">
             <img src="img/13.png" class="formacao_img">
@@ -120,7 +121,7 @@
         </ul>
         </div>
     </section>
-    <section class="projetos" id="projetos">
+    <section class="projetos hidden reveal" id="projetos">
         <h2 class="projetos__titulo1">-Projetos-</h2>
         <div class="projetos__01">
             <img src="img/14.png" class="projetos_img">
@@ -149,5 +150,37 @@
         </div>
 
     </section>
+
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const sectionsToReveal = document.querySelectorAll(".reveal");
+    
+            const revealSection = (section) => {
+                section.classList.remove("hidden");
+                section.classList.add("visible");
+            };
+    
+            const handleScroll = () => {
+                sectionsToReveal.forEach((section) => {
+                    const sectionTop = section.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+    
+                    if (sectionTop < windowHeight * 0.75) {
+                        revealSection(section);
+                    }
+                });
+            };
+    
+            // Detectar quando o usuário rolar a página
+            window.addEventListener("scroll", handleScroll);
+    
+            // Chamar handleScroll inicialmente para revelar seções visíveis no carregamento da página
+            handleScroll();
+        });
+    </script>
+    
 </body>
 </html>
