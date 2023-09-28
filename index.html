@@ -156,30 +156,38 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            const sectionsToReveal = document.querySelectorAll(".reveal");
-    
-            const revealSection = (section) => {
-                section.classList.remove("hidden");
-                section.classList.add("visible");
-            };
-    
-            const handleScroll = () => {
-                sectionsToReveal.forEach((section) => {
-                    const sectionTop = section.getBoundingClientRect().top;
-                    const windowHeight = window.innerHeight;
-    
-                    if (sectionTop < windowHeight * 0.75) {
-                        revealSection(section);
-                    }
-                });
-            };
-    
-            // Detectar quando o usuário rolar a página
-            window.addEventListener("scroll", handleScroll);
-    
-            // Chamar handleScroll inicialmente para revelar seções visíveis no carregamento da página
-            handleScroll();
+    const sectionsToReveal = document.querySelectorAll(".reveal");
+
+    const revealSection = (section) => {
+        section.classList.remove("hidden");
+        section.classList.add("visible");
+    };
+
+    const hideSection = (section) => {
+        section.classList.remove("visible");
+        section.classList.add("hidden");
+    };
+
+    const handleScroll = () => {
+        sectionsToReveal.forEach((section) => {
+            const sectionTop = section.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (sectionTop < windowHeight * 0.75) {
+                revealSection(section);
+            } else {
+                hideSection(section);
+            }
         });
+    };
+
+    // Detectar quando o usuário rolar a página
+    window.addEventListener("scroll", handleScroll);
+
+    // Chamar handleScroll inicialmente para revelar ou ocultar seções no carregamento da página
+    handleScroll();
+});
+
     </script>
     
 </body>
