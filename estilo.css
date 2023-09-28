@@ -5,6 +5,8 @@
 @import url(styles/formacao.css);
 @import url(styles/experiencia.css);
 @import url(styles/projetos.css);
+@import url(styles/contatos-info.css);
+@import url(styles/rodape.css);
 :root{
 
     --cor-de-fundo: #EBECEE;

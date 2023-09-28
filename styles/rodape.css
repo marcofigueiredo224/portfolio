@@ -1,0 +1,28 @@
+.rodape{
+    margin-top: 5em;
+}
+.rodape-infos{
+    background-color: transparent;
+    color: black;
+    
+    align-items: center;
+    position: relative;
+    text-align: center;
+    display: flex;         /* Use flexbox para controlar o layout */
+    justify-content: center; /* Alinhar as imagens à esquerda (opcional) */
+
+}
+
+
+
+.rodape-infos_img{
+    max-width: 100%;
+    width: 80px;
+    text-align: center;
+    
+}
+
+.rodape p{
+    text-align: center;
+    font-size: 15px;
+}

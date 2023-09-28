@@ -1,0 +1,20 @@
+.contatos-info{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contatos-info img{
+    width: 100px;
+    
+}
+
+
+.contatos-txt-titulo{
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.contatos-txt-paragrafo{
+    margin-top: 8px;
+}
+
