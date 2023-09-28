@@ -9,12 +9,23 @@
 }
 
 
-.contatos-txt-titulo{
-    font-weight: bold;
-    margin-top: -20px;
+
+
+
+
+@media screen and (min-width: 1024px){
+    .contatos-info {
+        display: flex; /* Ativar o layout flex */
+        justify-content: space-between; /* Espaçar os elementos igualmente ao longo do eixo principal */
+    }
+    
+    /* Estilos para as divs dentro da seção */
+    .contatos-info__1,
+    .contatos-info__2 {
+        flex: 1; /* Fazer com que cada div ocupe a mesma largura disponível */
+        text-align: center; /* Alinhar o texto ao centro dentro de cada div */
+    }
 }
 
-.contatos-txt-paragrafo{
-    margin-top: 8px;
-}
+
 

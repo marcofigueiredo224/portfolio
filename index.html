@@ -33,16 +33,22 @@
                 <img src="img/logo-marco.png" alt="foto-perfil" class="foto-perfil1"> 
                 <h2 class="informacoes__nome">Marco Figueiredo</h2>
                 <div class="informacoes__linha"></div>
-                <p class="informacoes__cargo">Analista de Testes</p>
-                <a href="files/MarcoFigueiredo_QA.pdf"  download>
-                    <input type="button" value="Currículo" class="informacoes_botao">
+                <p class="informacoes__cargo">Analista de Testes/QA</p>
+                    <div class="botoes-container">
+                        <a href="files/MarcoFigueiredo_QA.pdf"  download>
+                            <input type="button" value="Currículo" class="informacoes_botao">
+                        </a>
+                        <a href="#projetos">
+                        <input type="button" value="Projetos" class="informacoes_botao">
                 </a>
-                <a href="#projetos">
-                <input type="button" value="Projetos" class="informacoes_botao">
-                </a>
+                    </div>
+                    <a href="#sobre-mim">
+                        <input type="button" value="Ver mais" class="informacoes_botao btn-ver-mais" id="ver-mais">
+                        </a>
+
             </div>
         </div>
-        <div class="informacoes_contatos">
+        <div class="informacoes_contatos" id="sobre-mim">
             <a href="https://github.com/marcofigueiredo224" target="_blank"><img src="img/10.png" class="informmacoes_img" id="git"></a>
             <a href="https://wa.me/5579991390799" target="_blank"><img src="img/11.png" class="informmacoes_img" id="whatsapp"></a>
             <a href="https://www.linkedin.com/in/marco-sfigueiredo/" target="_blank"><img src="img/12.png" class="informmacoes_img" id="linkedin"></a>
@@ -50,9 +56,9 @@
     </section>
 
     
-    <section class="sobre-mim hidden reveal">
+    <section class="sobre-mim hidden reveal" >
         <div class="sobre-mim_card">
-            <h2 class="sobre-mim__titulo">-Sobre Mim-</Sobre></h2>
+            <h2 class="sobre-mim__titulo" >-Sobre Mim-</Sobre></h2>
             <p class="sobre-mim__paragrafo">Analista de testes com 1 ano e meio de experiência e 4 anos de estudos na área de Qualidade de Software.<br>
                 Execução de testes manuais mobile e desktop, execução de testes automatizados com Cypress e Robot Framework.<br>
                 Documentação dos testes com o reporte de bugs e geração de evidências, gerenciamento dos testes utilizando Jira.</p>
@@ -67,7 +73,7 @@
             <img src="img/1.png" class="habilidades__img" alt="Robot">
             <img src="img/2.png" class="habilidades__img" alt="Cypress">
             <img src="img/3.png" class="habilidades__img" alt="Python">
-            <img src="img/4.png" class="habilidades__img" alt="HTML">
+            <img src="img/4.png" class="habilidades__img" alt="HTML"><br class="aparece-desktop">
             <img src="img/5.png" class="habilidades__img" alt="Mysql">
             <img src="img/6.png" class="habilidades__img" alt="Java">
             <img src="img/7.png" class="habilidades__img" alt="Selenium">
@@ -123,42 +129,48 @@
     </section>
     <section class="projetos hidden reveal" id="projetos">
         <h2 class="projetos__titulo1">-Projetos-</h2>
-        <div class="projetos__01">
-            <img src="img/14.png" class="projetos_img">
-            <h2 class="projetos_titulo" for="projetos01_titulo-id" >Automação com Cypress</h2>
-            <a href="https://github.com/marcofigueiredo224/Cypress/blob/main/DEVFINANCE" target="_blank">
-                 <input class="projetos-btn" id="projetos01_titulo-id" type="button" value="Ver">
-                </a> 
+        <div class="todos-projetos">
+            <div class="projetos__01">
+                <img src="img/14.png" class="projetos_img">
+                <h2 class="projetos_titulo" for="projetos01_titulo-id" >Automação com Cypress</h2>
+                <a href="https://github.com/marcofigueiredo224/Cypress/blob/main/DEVFINANCE" target="_blank">
+                    <input class="projetos-btn" id="projetos01_titulo-id" type="button" value="Ver">
+                    </a> 
+                
+            </div>
+            <div class="projetos__02 hidden reveal">
+                
+                <img src="img/15.png" class="projetos_img">
+                <h2 class="projetos_titulo" for="projetos02_titulo-id" >Automação com Robot Framework</h2>
+                <a href="https://github.com/marcofigueiredo224/ecommerce" target="_blank">
+                    <input class="projetos-btn" id="projetos02_titulo-id" type="button" value="Ver">
+                </a>
             
-        </div>
-        <div class="projetos__02 hidden reveal">
+            </div>
+            <div class="projetos__03 hidden reveal">
             
-            <img src="img/15.png" class="projetos_img">
-            <h2 class="projetos_titulo" for="projetos02_titulo-id" >Automação com Robot Framework</h2>
-            <a href="https://github.com/marcofigueiredo224/ecommerce" target="_blank">
-                <input class="projetos-btn" id="projetos02_titulo-id" type="button" value="Ver">
-            </a>
-           
-        </div>
-        <div class="projetos__03 hidden reveal">
-           
-            <img src="img/16.png" class="projetos_img">
-            <h2 class="projetos_titulo" for="projetos03_titulo-id">Landing Page SPFC - HTML e CSS</h2>
-            <a href="https://sociotorcedor.vercel.app/" target="_blank">
-                <input class="projetos-btn" id="projetos03_titulo-id" type="button" value="Ver">
-            </a>
+                <img src="img/16.png" class="projetos_img">
+                <h2 class="projetos_titulo" for="projetos03_titulo-id">Landing Page SPFC - HTML e CSS</h2>
+                <a href="https://sociotorcedor.vercel.app/" target="_blank">
+                    <input class="projetos-btn" id="projetos03_titulo-id" type="button" value="Ver">
+                </a>
+                </div>
         </div>
 
     </section>
 
 
     <section class="contatos-info  hidden reveal">
-        <img src="img/17.png" alt="localizacao">
-        <h2 class="contatos-txt-titulo">Localização</h2>
-        <p class="contatos-txt-paragrafo">Aracaju <br> Sergipe</p>
-        <img src="img/18.png" alt="e-mail">
-        <h2 class="contatos-txt-titulo">E-mail</h2>
-        <p class="contatos-txt-paragrafo">marcofigueiredo22@gmail.com</p>
+        <div class="contatos-info__1">
+            <img src="img/17.png" alt="localizacao">
+            <h2 class="contatos-txt-titulo">Localização</h2>
+            <p class="contatos-txt-paragrafo">Aracaju <br> Sergipe</p>
+        </div>
+        <div class="contatos-info__2">
+            <img src="img/18.png" alt="e-mail">
+            <h2 class="contatos-txt-titulo">E-mail</h2>
+            <p class="contatos-txt-paragrafo">marcofigueiredo22@gmail.com</p>
+        </div>
     </section>
 
     <footer class="rodape">
@@ -171,6 +183,10 @@
             <p>© Todos os Diretos Reservados - Marco Figueiredo.</p>
         </div>
     </footer>
+
+
+
+
 
 
     <script>
@@ -209,5 +225,8 @@
 
     </script>
     
+
+
+
 </body>
 </html>

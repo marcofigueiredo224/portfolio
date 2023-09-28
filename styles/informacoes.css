@@ -15,6 +15,9 @@
     margin: 0 auto;
     
 }
+#ver-mais{
+    display: none;
+}
 
 .informacoes__nome{
     font-size: 30px;
@@ -73,4 +76,66 @@
     max-width: 100%;
     width: 80px;
     
+}
+
+
+@media screen and (min-width: 1024px){
+
+    .informacoes{
+        
+        
+    
+        
+    }
+    .quadrado_dec1{
+    background-color: #DCE3F5;
+    color: black;
+    text-align: center;
+    padding: 4em 0.5em;
+    margin: 190px;
+    margin-top: -125px;
+    height: 640px;
+
+}
+
+#ver-mais{
+    display:inline;
+    text-align: center;  
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius:24px ;
+    background-color: transparent;
+    color: #014235;
+    padding: 0.5em;
+    width: 8em;
+    text-transform: uppercase;
+    font-weight: 600; 
+    
+}
+
+#ver-mais:hover{
+    background-color: #014235;
+    color: white;
+
+}
+.informacoes_contatos{
+    background-color: #ffffff;
+    color: black;
+    margin: 190px;
+    height: 50px;
+    margin-top: -230px;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    display: flex;         /* Use flexbox para controlar o layout */
+    justify-content: center; /* Alinhar as imagens à esquerda (opcional) */
+
+}
+
+#ver-mais{
+    margin-top: 30px;
+    
+}  
+
+
 }

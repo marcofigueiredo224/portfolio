@@ -13,3 +13,22 @@
     height: 130px;
     width: 130px;
 }
+
+.aparece-desktop{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1024px){
+
+    .habilidades__img{
+        margin-top: 20px;
+        height: 170px;
+        width: 170px;
+    }
+    .aparece-desktop{
+        display: block;
+    }
+    
+    }

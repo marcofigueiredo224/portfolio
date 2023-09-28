@@ -2,7 +2,7 @@
     text-align: center;
 }
 .projetos__titulo1{
-    font-weight: bold; /* Adiciona negrito ao título (opcional) */
+    font-weight: bold; 
     padding-bottom: 5px;
     text-transform: uppercase;
     font-weight: 600;
@@ -15,7 +15,7 @@
 }
 
 .projetos_titulo{
-    font-weight: bold; /* Adiciona negrito ao título (opcional) */
+    font-weight: bold; 
     padding-bottom: 5px;
     text-transform: uppercase;
     color: black;
@@ -45,4 +45,20 @@
     background-color: transparent;
     color: #014235;
 
+}
+
+
+@media screen and (min-width: 1024px){
+    .todos-projetos {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        flex: 1; 
+        text-align: center; 
+    }
+    .projetos__01,
+    .projetos__02,
+    .projetos__03 { 
+        margin: 0 30px; 
+    }
 }

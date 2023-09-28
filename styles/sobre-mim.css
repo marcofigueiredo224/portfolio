@@ -1,6 +1,5 @@
 .sobre-mim_card{
     
-    
     padding: 1em;
     margin: 30px;
 }
@@ -14,4 +13,14 @@
 .sobre-mim__paragrafo{
     text-align: center;
     margin: 10px
+}
+
+
+
+
+@media screen and (min-width: 1024px){
+.sobre-mim{
+    margin-top: -150px;
+}
+
 }

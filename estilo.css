@@ -38,3 +38,11 @@ h2{
     transform: translateY(0);
     transition: opacity 1s ease, transform 1s ease;
 }
+
+a{
+    text-decoration: none;
+}
+
+input{
+    cursor: pointer;
+}
