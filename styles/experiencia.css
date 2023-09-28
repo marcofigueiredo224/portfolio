@@ -1,0 +1,37 @@
+.experiencia_atividades{
+    background-color: #DCE3F5;
+    margin: 30px;
+    line-height: 20px;
+    margin-top: -10px;
+}
+.experiencia__titulo1{
+    font-weight: bold; /* Adiciona negrito ao título (opcional) */
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.experiencia__titulo {
+    font-weight: bold; /* Adiciona negrito ao título (opcional) */
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+
+    
+}
+
+.experiencia__subtitulo {
+    
+    padding-bottom: 10px;
+    text-align: center;
+    line-height: 20px;
+    
+}
+
+li{
+    font-size: 12px;
+}

@@ -1,0 +1,17 @@
+.sobre-mim_card{
+    
+    
+    padding: 1em;
+    margin: 30px;
+}
+.sobre-mim__titulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.sobre-mim__paragrafo{
+    text-align: center;
+    margin: 10px
+}
