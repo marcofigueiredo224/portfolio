@@ -12,7 +12,8 @@
     height: 430px;
     width: 430px;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; /* Isso centraliza horizontalmente */
+    
     
 }
 #ver-mais{
@@ -138,4 +139,28 @@
 }  
 
 
+}
+
+
+
+
+@media screen and (max-width: 375px){
+    .foto-perfil1{
+        height: 430px;
+        width: 430px;
+        display: block;
+        margin: 0 auto; /* Isso centraliza horizontalmente */
+        margin-left: -65px;
+        
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 430px){
+    .foto-perfil1{
+        height: 430px;
+        width: 430px;
+        display: block;
+        margin: 0 auto; /* Isso centraliza horizontalmente */
+        margin-left: -45px;
+        
+    }
 }
