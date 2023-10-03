@@ -57,7 +57,9 @@
 }
 .projetos__01,
 .projetos__02,
-.projetos__03 { 
+.projetos__03,  
+.projetos__04,  
+.projetos__05 { 
     scroll-snap-align: start;
 }
 .projeto-navigation {
@@ -67,6 +69,11 @@
 
 
 .projeto-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+
+.nav-arrow{
     display: none;
 }
 
@@ -83,4 +90,47 @@
     .projetos__03 { 
         margin: 0 30px; 
     }
+}
+
+
+.carousel-nav {
+    background-color: #ccc;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .carousel-nav.prev {
+    position: absolute;
+    left: 10px; /* Ajuste a posição conforme necessário */
+  }
+  
+  .carousel-nav.next {
+    position: absolute;
+    right: 10px; /* Ajuste a posição conforme necessário */
+  }
+  .nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
 }
