@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    </script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -195,44 +194,10 @@
 
 
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-    const sectionsToReveal = document.querySelectorAll(".reveal");
-
-    const revealSection = (section) => {
-        section.classList.remove("hidden");
-        section.classList.add("visible");
-    };
-
-    const hideSection = (section) => {
-        section.classList.remove("visible");
-        section.classList.add("hidden");
-    };
-
-    const handleScroll = () => {
-        sectionsToReveal.forEach((section) => {
-            const sectionTop = section.getBoundingClientRect().top;
-            const windowHeight = window.innerHeight;
-
-            if (sectionTop < windowHeight * 0.75) {
-                revealSection(section);
-            } else {
-                hideSection(section);
-            }
-        });
-    };
-
-    // Detectar quando o usuário rolar a página
-    window.addEventListener("scroll", handleScroll);
-
-    // Chamar handleScroll inicialmente para revelar ou ocultar seções no carregamento da página
-    handleScroll();
-});
-
-    </script>
+    
     
 
-
+    <script src="scroll.js"></script>
     <script src="javas.js"></script>
     
 </body>
