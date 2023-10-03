@@ -47,6 +47,31 @@
 
 }
 
+.projeto-carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.projetos__01,
+.projetos__02,
+.projetos__03 { 
+    scroll-snap-align: start;
+}
+.projeto-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* Oculta a barra de rolagem horizontal */
+.projeto-carousel::-webkit-scrollbar {
+    display: none;
+}
 
 @media screen and (min-width: 1024px){
     .todos-projetos {
