@@ -21,18 +21,18 @@
 }
 
 .formacao__descricao {
-    flex-grow: 1; /* Expande o espaço restante para o texto */
+    flex-grow: 1;
 }
 
 .formacao__titulo {
-    font-weight: bold; /* Adiciona negrito ao título (opcional) */
+    font-weight: bold; 
     padding-bottom: 5px;
     text-transform: uppercase;
 
     
 }
 .formacao__titulo1 {
-    font-weight: bold; /* Adiciona negrito ao título (opcional) */
+    font-weight: bold; 
     padding-bottom: 5px;
     text-transform: uppercase;
     font-weight: 600;

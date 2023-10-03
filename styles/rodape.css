@@ -8,8 +8,8 @@
     align-items: center;
     position: relative;
     text-align: center;
-    display: flex;         /* Use flexbox para controlar o layout */
-    justify-content: center; /* Alinhar as imagens à esquerda (opcional) */
+    display: flex;          
+    justify-content: center;  
 
 }
 

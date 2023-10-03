@@ -15,15 +15,15 @@
 
 @media screen and (min-width: 1024px){
     .contatos-info {
-        display: flex; /* Ativar o layout flex */
-        justify-content: space-between; /* Espaçar os elementos igualmente ao longo do eixo principal */
+        display: flex; 
+        justify-content: space-between; 
     }
     
-    /* Estilos para as divs dentro da seção */
+    
     .contatos-info__1,
     .contatos-info__2 {
-        flex: 1; /* Fazer com que cada div ocupe a mesma largura disponível */
-        text-align: center; /* Alinhar o texto ao centro dentro de cada div */
+        flex: 1; 
+        text-align: center; 
     }
 }
 

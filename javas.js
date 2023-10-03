@@ -1,4 +1,3 @@
-// scripts.js
 
 let isDragging = false;
 let startX;
@@ -24,7 +23,7 @@ carousel.addEventListener('mousemove', (e) => {
     if (!isDragging) return;
     e.preventDefault();
     const x = e.pageX - carousel.offsetLeft;
-    const walk = (x - startX) * 1; // Ajuste a sensibilidade de arrastar aqui
+    const walk = (x - startX) * 1.5; 
 
     carousel.scrollLeft = scrollLeft - walk;
 });

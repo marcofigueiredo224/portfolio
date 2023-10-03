@@ -66,9 +66,6 @@
 }
 
 
-
-
-/* Oculta a barra de rolagem horizontal */
 .projeto-carousel::-webkit-scrollbar {
     display: none;
 }
