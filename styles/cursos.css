@@ -1,0 +1,85 @@
+.cursos{
+
+    align-items: center;
+    
+
+}
+
+.cursos_titulo{
+    margin-top: 100px;
+    font-weight: bold; 
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.img-cursos{
+   width: 350px;
+   height: 350px;
+
+}
+.curso_subtitulo{
+    margin-top: -80px;
+}
+.curso_lista{
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.curso_lista-item, .curso_subtitulo{
+    text-align: center;
+    font-weight: bold; 
+    
+}
+
+
+.curso-01 {
+    text-align: center;
+    margin-top: -29px;
+}
+
+.img-cursos {
+    margin: 0 auto;
+}
+
+.cursos_titulo1{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+    .cursos {
+        max-width: 800px; 
+        margin: 0 auto; 
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+    }
+    .curso-01 {
+        text-align: center; 
+        margin: 0 auto; 
+        margin-top: -50px;
+    }
+
+    .cursos_titulo {
+        display: none;
+    }
+
+    .cursos_titulo1 {
+        display: block;
+        text-align: center;
+        margin-top: 100px;
+        font-weight: bold;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+ 
+   
+}
